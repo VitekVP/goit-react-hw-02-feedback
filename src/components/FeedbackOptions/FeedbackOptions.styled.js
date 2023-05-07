@@ -22,6 +22,8 @@ export const Button = styled.button`
 
   cursor: pointer;
 
+  transition: background-color 300ms linear, color 300ms linear;
+
   &:hover {
     background-color: #959292;
     color: white;
